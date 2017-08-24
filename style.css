@@ -1,0 +1,48 @@
+/*
+Theme Name: OpenMaine
+Theme URI: http://robkorobkin.org
+Author: Rob Korobkin
+Author URI: http://robkorobkin.org
+Description: This is the template for OpenMaine.org
+Version: 1.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Tags: minimal
+Text Domain: openmaine
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+*/
+
+header {
+
+}
+
+.homebutton {
+  float: left;
+  font-size: 25px;
+  line-height: 60px;
+  display: inline-block;
+  color: rgb(31, 119, 180);
+  font-weight: bold;
+  padding-top: 10px;
+}
+
+.header-links {
+  float: right;
+  text-align: right;
+  padding-top: 30px;
+}
+
+.header-links li {
+  border-left: solid 1px #ccc;
+  display: inline-block;
+  list-style: none;
+  padding: 0 10px;
+  font-size: 18px;
+  font-style: italic;
+}
+
+.header-links li:first-child {
+  border-left: none;
+}
