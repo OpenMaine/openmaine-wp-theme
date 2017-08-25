@@ -18,6 +18,12 @@ header {
 
 }
 
+p {
+  font-size: 16px;
+  line-height: 24px;
+  width: 90%;
+}
+
 .homebutton {
   float: left;
   font-size: 25px;
